@@ -1,2 +1,1 @@
-# Exercises
-Exercises made in class.
+These are my shared exercises

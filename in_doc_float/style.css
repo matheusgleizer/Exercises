@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d1f1f;
+}
+
+h1 {
+  text-align: center;
+}
+
+article {
+  background-color: white;
+  width: 70%;
+  border: 5px solid orange;
+  margin: auto;
+  padding: 10px;
+}
+
+figure.right {
+  float: right;
+  margin: 5px;
+}
+
+figure.left {
+  float: left;
+  margin: 5px;
+}
+
+p.left:clear {
+  clear: both;
+}
+
+figure {
+  text-align: center;
+}
