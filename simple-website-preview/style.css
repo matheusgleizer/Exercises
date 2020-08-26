@@ -1,0 +1,31 @@
+.top {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    box-shadow: 1px 2px lightgray;
+    border: 0.5px solid rgb(231, 230, 230);
+    padding: 8px;
+    font-size: 5%;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.top a {
+    text-decoration: none;
+    color: black;
+}
+
+.top .right {
+    display: flex;
+    flex-direction: row;
+}
+
+.right div {
+    padding: 5px;
+    padding-right: 15px;
+}
+
+.left {
+    padding: 5px;
+}

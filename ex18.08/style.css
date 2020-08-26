@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.box-model {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.margin {
+    background-color: lightgray;
+    border: dashed
+}

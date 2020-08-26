@@ -1,0 +1,18 @@
+div.box1 {
+    background-color: green;
+    font-size: 5vh;
+    border: 1px solid black;
+    height: 60vh;
+    width: 60vh;
+    padding-top: 30vh;
+    padding-left: 30vh;
+}
+
+div.box2 {
+    background-color: blue;
+    font-size: 3vw;
+    border: 1px solid black;
+    width: 10vw;
+    height: 10vw;
+
+}
