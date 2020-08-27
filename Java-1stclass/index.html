@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Java First Class</title>
+  </head>
+
+  <body>
+    <h1>JavaScript</h1>
+    <input
+      id="firstname"
+      type="text"
+      name="firstname"
+      placeholder="Enter your first name"
+    />
+    <input
+      id="lastname"
+      type="text"
+      name="lastname"
+      placeholder="Enter your last name"
+    />
+    <button onclick="printName()">Show me</button>
+    <h3 id="firstname1">Here you will see your first name</h3>
+    <h3 id="lastname1">Here you will see your last name</h3>
+
+    <script>
+      function printName() {
+        let a = document.getElementById("firstname");
+        let b = document.getElementById("lastname");
+        let display1 = document.getElementById("firstname1");
+        let display2 = document.getElementById("lastname1");
+        display1.innerHTML = a.value;
+        display2.innerHTML = b.value;
+      }
+    </script>
+    <div class="calculator">
+      <h1>Calculator</h1>
+
+      <input
+        id="firstNumber"
+        type="number"
+        name="firstNumber"
+        placeholder="Enter the first number"
+      />
+
+      <input
+        id="secondNumber"
+        type="number"
+        name="secondNumber"
+        placeholder="Enter the second number"
+      />
+
+      <button id="btn1" onclick="sum()">+</button>
+      <button id="btn2" onclick="subtraction()">-</button>
+      <button id="btn3" onclick="multiplication()">x</button>
+      <button id="btn4" onclick="division()">/</button>
+      <h3 id="result">Result</h3>
+    </div>
+
+    <script>
+      function sum() {
+        var a = document.getElementById("firstNumber");
+        var b = document.getElementById("secondNumber");
+        var c = parseInt(a.value) + parseInt(b.value);
+        var displayResult = document.getElementById("result");
+        displayResult.innerHTML = c;
+      }
+
+      function subtraction() {
+        var a = document.getElementById("firstNumber");
+        var b = document.getElementById("secondNumber");
+        var c = parseInt(a.value) - parseInt(b.value);
+        var displayResult = document.getElementById("result");
+        displayResult.innerHTML = c;
+      }
+
+      function multiplication() {
+        var a = document.getElementById("firstNumber");
+        var b = document.getElementById("secondNumber");
+        var c = parseInt(a.value) * parseInt(b.value);
+        var displayResult = document.getElementById("result");
+        displayResult.innerHTML = c;
+      }
+
+      function division() {
+        var a = document.getElementById("firstNumber");
+        var b = document.getElementById("secondNumber");
+        var c = parseInt(a.value) / parseInt(b.value);
+        var displayResult = document.getElementById("result");
+        displayResult.innerHTML = c;
+      }
+    </script>
+  </body>
+</html>

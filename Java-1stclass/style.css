@@ -1,0 +1,49 @@
+* {
+    text-align: center;
+}
+
+.calculator {
+    border: 3px solid black;
+    height: 500px;
+    display: grid;
+    grid-template-areas: 'header header'
+        'number1 plus'
+        'number1 minus'
+        'number2 multiplier'
+        'number2 divisor'
+        'result result';
+}
+
+.calculator h1 {
+    display: flex;
+    grid-area: header;
+    justify-content: center;
+}
+
+#firstNumber {
+    grid-area: number1;
+}
+
+#secondNumber {
+    grid-area: number2;
+}
+
+#btn1 {
+    grid-area: plus;
+}
+
+#btn2 {
+    grid-area: minus;
+}
+
+#btn3 {
+    grid-area: multiplier;
+}
+
+#btn4 {
+    grid-area: divisor;
+}
+
+#result {
+    grid-area: result;
+}

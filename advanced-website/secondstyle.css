@@ -1,0 +1,97 @@
+body {
+    background-color: white;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    align-items: center;
+    color: white;
+    padding: 5px 50px 5px 50px;
+    height: 3em;
+    background-color: black;
+}
+
+/*this is the left part of the header*/
+.h-left {
+    justify-content: space-around;
+}
+
+.h-left a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.h-left select {
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+/*this is the right part of the header*/
+.h-right {
+    justify-content: space-around;
+}
+
+.h-right a {
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2em;
+    background-color: white;
+    padding: 1em 3em 1em 3em;
+    width: auto;
+}
+
+/*this is the middle part of the navigation bar*/
+.nav-middle a {
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/*this is the search box*/
+nav div .search {
+    border: 1px lightgrey;
+    padding: 1px;
+    border-radius: 20px;
+}
+
+/*this is the sign in button on the top right*/
+.sign-in {
+    border-radius: 10px;
+    background-color: rgb(19, 112, 250);
+    color: white;
+    box-shadow: none;
+    border-color: rgb(19, 112, 250);
+}
+
+/*heart icon*/
+.far {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 0 7px 0 7px;
+}
+
+/*icon kart*/
+.fas {
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 0 7px 0 7px;
+}
+
+.winter-collection {}
